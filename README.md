@@ -39,7 +39,7 @@ IDE would fill my autocomplete list with components from other frameworks and hi
 
 ## Change Log
 
-#### [Unreleased]
+#### [0.3.0] - 2022-02-04
 - Added support for animations
 - Added support for widget opacity
 - Added opacity animation
@@ -55,6 +55,7 @@ IDE would fill my autocomplete list with components from other frameworks and hi
 - Added support for button icons
 - Implemented ComboBox widget class
 - Implemented Collapsible Panel widget class
+- Implemented Image Panel widget class
 
 #### [0.2.0] - 2016-03-27
 - Migrated to libgdx 1.9.1 and backend lwjgl3
