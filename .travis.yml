@@ -1,4 +1,0 @@
-language: java
-jdk: oraclejdk9
-after_failure:
-  pwd && cat build/reports/tests/index.html
