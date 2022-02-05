@@ -1,9 +1,9 @@
 [![Build Status](https://travis-ci.org/alexpana/kreativity-ui.svg?branch=master)](https://travis-ci.org/alexpana/kreativity-ui)
 
-[![CircleCI](https://circleci.com/alexpana/kreativity-ui.svg?style=svg)](https://circleci.com/gh/alexpana/kreativity-ui)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.katzstudio.kreativity-ui/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.katzstudio./kreativity-ui/)
+[![CircleCI](https://circleci.com/gh/alexpana/kreativity-ui.svg?style=svg)](https://circleci.com/gh/alexpana/kreativity-ui)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.katzstudio/kreativity-ui/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.katzstudio/kreativity-ui/)
 
-# Kreativity UI (under heavy development)
+# Krow UI
 
 UI framework built on top of libgdx. It focuses on elegant design and extensibility. Inspired by Qt. 
 
