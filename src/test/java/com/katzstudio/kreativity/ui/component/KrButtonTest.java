@@ -14,8 +14,6 @@ import org.junit.Test;
 import static com.katzstudio.kreativity.ui.KrToolkit.getDefaultToolkit;
 import static com.katzstudio.kreativity.ui.TestObjectFactory.createButtonStyle;
 import static com.katzstudio.kreativity.ui.TestUtils.initializeToolkit;
-import static org.mockito.Matchers.any;
-import static org.mockito.Matchers.eq;
 import static org.mockito.Mockito.*;
 
 /**
