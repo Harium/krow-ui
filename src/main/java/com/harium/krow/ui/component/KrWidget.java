@@ -172,7 +172,7 @@ public class KrWidget implements KrUpdateListener, Disposable {
      *
      * @param parent the new parent of this widget
      */
-    private void setParent(KrWidget parent) {
+    protected void setParent(KrWidget parent) {
         this.parent = parent;
     }
 
