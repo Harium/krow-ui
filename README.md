@@ -1,13 +1,12 @@
-[![Build Status](https://travis-ci.org/alexpana/kreativity-ui.svg?branch=master)](https://travis-ci.org/alexpana/kreativity-ui)
-
-[![CircleCI](https://circleci.com/gh/alexpana/kreativity-ui.svg?style=svg)](https://circleci.com/gh/alexpana/kreativity-ui)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.katzstudio/kreativity-ui/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.katzstudio/kreativity-ui/)
+[![CircleCI](https://circleci.com/gh/Harium/krow-ui.svg?style=svg)](https://circleci.com/gh/Harium/krow-ui)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.harium.gdx/krow-ui/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.harium.gdx/krow-ui/)
 
 # Krow UI
 
-UI framework built on top of libgdx. It focuses on elegant design and extensibility. Inspired by Qt. 
+Krow UI is a fork of Kreativity UI, a UI framework built on top of libgdx.
+Focused on elegant design and extensibility. Inspired by Qt. 
 
-![Screenshot showcasing available widgets](https://raw.githubusercontent.com/alexpana/kreativity-ui/master/screenshot.png)
+![Screenshot showcasing available widgets](https://raw.githubusercontent.com/Harium/krow-ui/master/screenshot.png)
 
 ## Frequently Asked Questions
 **Q: What is this?**
@@ -18,7 +17,7 @@ A: This is a UI framework written in java on top of libgdx (opengl). It's simila
 **Q: Why not use swing / javafx?**
 
 A: These UI frameworks are mature and complete, but they work with the native resources of the operating system. They
-manage the entire window and have internal renderers on top of the operating system to display the UI. **Kreativity-Ui**
+manage the entire window and have internal renderers on top of the operating system to display the UI. **Krow-Ui**
 is built to work inside an opengl context, where swing / javafx components cannot be used.
 
 
