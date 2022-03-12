@@ -3,7 +3,7 @@
 
 # Krow UI
 
-Krow UI is a fork of Kreativity UI, a UI framework built on top of libgdx.
+Krow UI is a fork of [Kreativity UI](https://github.com/alexpana/kreativity-ui), a UI framework built on top of libgdx.
 Focused on elegant design and extensibility. Inspired by Qt. 
 
 ![Screenshot showcasing available widgets](https://raw.githubusercontent.com/Harium/krow-ui/master/screenshot.png)
@@ -17,7 +17,7 @@ A: This is a UI framework written in java on top of libgdx (opengl). It's simila
 **Q: Why not use swing / javafx?**
 
 A: These UI frameworks are mature and complete, but they work with the native resources of the operating system. They
-manage the entire window and have internal renderers on top of the operating system to display the UI. **Krow-Ui**
+manage the entire window and have internal renderers on top of the operating system to display the UI. **Krow-UI**
 is built to work inside an opengl context, where swing / javafx components cannot be used.
 
 
