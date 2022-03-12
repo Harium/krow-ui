@@ -10,6 +10,7 @@ public class KrApplicationPanel extends KrWidget {
 
     public KrApplicationPanel(KrApplicationAdapter application) {
         this.application = application;
+        this.application.parent = this;
         application.create();
         setSize(calculatePreferredSize());
     }
@@ -40,12 +41,6 @@ public class KrApplicationPanel extends KrWidget {
     protected void focusLostEvent(KrFocusEvent event) {
         super.focusLostEvent(event);
         application.pause();
-    }
-
-    @Override
-    protected void setParent(KrWidget parent) {
-        super.setParent(parent);
-        application.parent = parent;
     }
 
     public abstract static class KrApplicationAdapter extends ApplicationAdapter {
