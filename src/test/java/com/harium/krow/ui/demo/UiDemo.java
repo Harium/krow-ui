@@ -756,6 +756,10 @@ public class UiDemo extends Game {
         canvas.setSize(width, height);
     }
 
+    public void dispose() {
+        canvas.dispose();
+    }
+
     /**
      * A container panel that lays out it's children in 4 columns.
      */
