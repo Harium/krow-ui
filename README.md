@@ -38,6 +38,9 @@ IDE would fill my autocomplete list with components from other frameworks and hi
 
 ## Change Log
 
+#### Unreleased
+- Added new widget KrApplicationPanel (a wrapper to LibGDX ApplicationAdapters)
+
 #### [0.3.0] - 2022-02-04
 - Added support for animations
 - Added support for widget opacity
