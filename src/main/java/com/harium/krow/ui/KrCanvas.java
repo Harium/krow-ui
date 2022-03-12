@@ -3,6 +3,7 @@ package com.harium.krow.ui;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector2;
+import com.badlogic.gdx.utils.Disposable;
 import com.harium.krow.ui.backend.KrInputSource;
 import com.harium.krow.ui.component.KrPanel;
 import com.harium.krow.ui.component.KrWidget;
@@ -25,7 +26,7 @@ import static com.harium.krow.ui.KrToolkit.getDefaultToolkit;
 /**
  * Top level container for UI elements. Delegates input events to top level components.
  */
-public class KrCanvas implements KrInputSource.KrInputEventListener {
+public class KrCanvas implements KrInputSource.KrInputEventListener, Disposable {
 
     @Getter private final KrPanel rootPanel;
 
@@ -213,6 +214,11 @@ public class KrCanvas implements KrInputSource.KrInputEventListener {
     public void scrolledEvent(KrScrollEvent event) {
         KrWidget destinationWidget = findWidgetAt(Gdx.input.getX(), Gdx.input.getY());
         dispatchEvent(destinationWidget, event);
+    }
+
+    @Override
+    public void dispose() {
+
     }
 
     public interface KrInputListener {

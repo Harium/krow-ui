@@ -5,6 +5,7 @@ import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
+import com.badlogic.gdx.utils.Disposable;
 import com.badlogic.gdx.utils.Pools;
 import com.harium.krow.ui.KrCanvas;
 import com.harium.krow.ui.KrCursor;
@@ -41,7 +42,7 @@ import static com.harium.krow.ui.KrRectangles.rectangles;
  * Base class for all Kreativity UI Components
  */
 @SuppressWarnings("ALL")
-public class KrWidget implements KrUpdateListener {
+public class KrWidget implements KrUpdateListener, Disposable {
 
     public static final String FOCUS_PROPERTY = "property.focus";
 
@@ -1155,6 +1156,13 @@ public class KrWidget implements KrUpdateListener {
 
     protected void notifyWidgetInvalidated() {
         widgetListeners.forEach(KrWidgetListener::invalidated);
+    }
+
+    @Override
+    public void dispose() {
+        if (canvas != null) {
+            canvas.dispose();
+        }
     }
 
     /**
